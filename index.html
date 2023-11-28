@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <title>오늘 뭐입지?</title>
+    <link rel="stylesheet" href="index.css" >
+    
+</head>
+
+<body>
+    <div class = "box" >
+        
+        <div class="js-clock"> 
+            <h1>00:00 </h1> 
+
+        </div>
+        
+
+        <div class="main">
+
+
+                <div class = "weather">
+
+                    <img id = "temp" src="https://res.cloudinary.com/dvg06dahq/image/upload/v1607964224/temp_wjgwnh.png">
+                    <span class = "nowWeather"> 현재 기온  </span>
+                    <span class ="js-weather"></span>
+                    
+                </div> 
+
+
+            
+
+                
+
+        </div>
+
+        <div class = "where">
+            현재 기온 : <span class ="js-where"></span> 기준
+        </div>
+        <button type="button" class="btn1" onClick="location.href='next.html'">오늘 뭐입지? (Click!)</button>
+
+    </div>
+    
+
+
+    <script src="clock.js"></script>
+    <script src="weather.js"></script>
+    <script src="apiKey.js"></script>
+   
+
+</body>
+
+</html>
